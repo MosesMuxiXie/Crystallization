@@ -1,0 +1,10 @@
+{
+	"key.category.crystallization.general": "Crystallization",
+	"key.crystallization.toggle": "启用/禁用（需按住 Alt）",
+	"message.crystallization.enabled": "crystallization启用",
+	"message.crystallization.disabled": "crystallization禁用",
+	"screen.crystallization.title": "Crystallization 设置",
+	"option.crystallization.enabled": "功能开关",
+	"option.crystallization.shortcut": "快捷键：Alt + %s",
+	"option.crystallization.alt_hint": "在按键绑定界面中可修改 Alt 后面的主按键"
+}

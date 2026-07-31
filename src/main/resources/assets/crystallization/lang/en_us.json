@@ -1,0 +1,10 @@
+{
+	"key.category.crystallization.general": "Crystallization",
+	"key.crystallization.toggle": "Toggle (hold Alt)",
+	"message.crystallization.enabled": "crystallization enabled",
+	"message.crystallization.disabled": "crystallization disabled",
+	"screen.crystallization.title": "Crystallization Settings",
+	"option.crystallization.enabled": "Feature",
+	"option.crystallization.shortcut": "Shortcut: Alt + %s",
+	"option.crystallization.alt_hint": "Change the primary key after Alt in the Key Binds screen"
+}

@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "crystallization",
+	"version": "${version}",
+	"name": "Crystallization",
+	"description": "Use stacked ice like a water bucket to waterlog blocks.",
+	"authors": [
+		"xiemu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/crystallization/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.xiemu.crystallization.Crystallization"
+		],
+		"client": [
+			"com.xiemu.crystallization.client.CrystallizationClient"
+		],
+		"modmenu": [
+			"com.xiemu.crystallization.client.CrystallizationModMenuApi"
+		]
+	},
+	"mixins": [
+		{
+			"config": "crystallization.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": ">=17.0.0"
+	}
+}
