@@ -1,5 +1,7 @@
 # Crystallization
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Crystallization is a Fabric mod for Minecraft Java Edition 1.21.11. While the
 feature is enabled, right-clicking any not-yet-waterlogged block with regular
 ice waterlogs the target and consumes one ice block. Ice remains the normal
