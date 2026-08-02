@@ -1,8 +1,10 @@
 # gradle
 
 .gradle/
+.gradle-user/
 .gradle-user-home/
 build/
+dist/
 out/
 classes/
 
