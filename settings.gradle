@@ -9,5 +9,28 @@ pluginManagement {
 	}
 }
 
-// Should match your modid
 rootProject.name = 'crystallization'
+
+// One tested build per Minecraft compatibility family. Patch releases which
+// share the same bytecode/API family are covered by that build's metadata
+// range (see minecraftTargets in build.gradle).
+[
+		'mc1_16_5',
+		'mc1_17_1',
+		'mc1_18_2',
+		'mc1_19_2',
+		'mc1_19_4',
+		'mc1_20_1',
+		'mc1_20_4',
+		'mc1_20_6',
+		'mc1_21_1',
+		'mc1_21_4',
+		'mc1_21_5',
+		'mc1_21_8',
+		'mc1_21_11',
+		'mc26_1_2',
+		'mc26_2'
+].each { targetName ->
+	include targetName
+	project(":${targetName}").projectDir = file("versions/${targetName}")
+}
